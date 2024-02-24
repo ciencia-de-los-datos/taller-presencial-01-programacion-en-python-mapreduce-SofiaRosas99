@@ -18,7 +18,7 @@ def mapper(sequence):
         words = text.rstrip().split()
         for word in words:
             word = word.replace(",","")
-            word = word.replace(",","")
+            word = word.replace(".","")
             word = word.lower()
             new_sequence.append((word, 1))
     return new_sequence
