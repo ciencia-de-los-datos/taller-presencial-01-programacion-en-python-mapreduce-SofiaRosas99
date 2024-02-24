@@ -1,17 +1,3 @@
-#
-# Escriba la función load_input que recibe como parámetro un folder y retorna
-# una lista de tuplas donde el primer elemento de cada tupla es el nombre del
-# archivo y el segundo es una línea del archivo. La función convierte a tuplas
-# todas las lineas de cada uno de los archivos. La función es genérica y debe
-# leer todos los archivos de folder entregado como parámetro.
-#
-# Por ejemplo:
-#   [
-#     ('text0'.txt', 'Analytics is the discovery, inter ...'),
-#     ('text0'.txt', 'in data. Especially valuable in ar...').
-#     ...
-#     ('text2.txt'. 'hypotheses.')
-#   ]
 import glob # permite leer el contenido de directorios
 import fileinput #permite iterar y operar en archivos
 
