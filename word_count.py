@@ -11,8 +11,6 @@ def load_input(input_directory):
 
     return sequence
 
-
-
 #
 # Escriba una función llamada maper que recibe una lista de tuplas de la
 # función anterior y retorna una lista de tuplas (clave, valor). En este caso,
