@@ -32,12 +32,12 @@ def reducer(sequence):
     diccionario = {}
     for key, value in sequence:
         if key not in diccionario.keys():
-            diccionario[key] = []
-        diccionario[key].append(value)
+            diccionario[key] = 0
+        diccionario[key] += value
     
     new_sequence = []
     for key, value in diccionario.items():
-        tupla = (key, sum(value))
+        tupla = (key, value)
         new_sequence.append(tupla)
 
     return new_sequence
